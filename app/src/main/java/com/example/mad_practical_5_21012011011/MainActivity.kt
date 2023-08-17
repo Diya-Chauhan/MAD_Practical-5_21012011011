@@ -1,25 +1,26 @@
 package com.example.mad_practical_5_21012011011
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.AlarmClock
+import android.provider.Browser
 import android.provider.CallLog
+import android.provider.ContactsContract.DisplayPhoto
 import android.provider.MediaStore
+import android.telecom.Call
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Gallery
 
 class MainActivity : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val Browse : Button=findViewById(R.id.Button1)
-        Browse.setOnClickListener {
-            val editBrowser : EditText=findViewById(R.id.editTextBrowse)
-
+        val btnBrowser:Button=findViewById(R.id.Button1)
+        val editBrowser:EditText=findViewById(R.id.editTextBrowse)
+        btnBrowser.setOnClickListener {
             Browser(editBrowser.text.toString())
         }
         val btnCall:Button = findViewById(R.id.btnCall)
@@ -31,45 +32,35 @@ class MainActivity : AppCompatActivity() {
         btnCallLog.setOnClickListener(){
             call(editCall.text.toString())
         }
-        val gallery:Button=findViewById(R.id.btnGallery)
-        gallery.setOnClickListener(){
-            Gallery()
+        val btnGallery:Button=findViewById(R.id.btnGallery)
+        btnGallery.setOnClickListener(){
+            gallery()
         }
-        val Camera:Button=findViewById(R.id.btnCamera)
-        Camera.setOnClickListener(){
-            Camera()
+        val btnCamera:Button=findViewById(R.id.btnCamera)
+        btnCamera.setOnClickListener(){
+            camera()
         }
-        val Alarm:Button=findViewById(R.id.btnalarm)
-        Alarm.setOnClickListener(){
-            Alarm()
+        val btnAlarm:Button=findViewById(R.id.btnalarm)
+        btnAlarm.setOnClickListener(){
+            alarm()
         }
-
-
     }
-
-    private fun call(toString: String) {
-
-    }
-
-    fun Browser(url : String){
+    fun Browser(url:String) {
         Intent(Intent.ACTION_VIEW, Uri.parse(url)).also { startActivity(it) }
     }
-
-    fun Call(number: Number){
-        Intent(Intent.ACTION_DIAL).setData(Uri.parse("tel:$number")).also { startActivity(it) }
-
+    fun call(number:String){
+        Intent(Intent.ACTION_DIAL).setData(Uri.parse("tel:$number")).also{startActivity(it)}
     }
-    fun call_log(){
+    fun calllog(){
         Intent(Intent.ACTION_VIEW).setType(CallLog.Calls.CONTENT_TYPE).also { startActivity(it) }
     }
-    fun Gallery(){
+    fun gallery(){
         Intent(Intent.ACTION_VIEW).setType("image/*").also { startActivity(it) }
     }
-    fun Camera(){
+    fun camera(){
         Intent(MediaStore.ACTION_IMAGE_CAPTURE).also { startActivity(it) }
     }
-    fun Alarm(){
+    fun alarm(){
         Intent(AlarmClock.ACTION_SHOW_ALARMS).also { startActivity(it) }
     }
-
 }
