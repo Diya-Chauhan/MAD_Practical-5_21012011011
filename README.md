@@ -7,7 +7,7 @@ What is Intent? Write down types of Intent and types of Intent Action. Create an
 5. Set Alarm
 6. Open Camera
 
-![image](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/b4484a47-16f9-4ef0-9c6d-2bcb53d27325)
+
 
 ![image](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/f99cfa3e-5f09-4ed4-8394-b3d11c9e5191)
 
