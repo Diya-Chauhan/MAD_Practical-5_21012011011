@@ -7,18 +7,18 @@ What is Intent? Write down types of Intent and types of Intent Action. Create an
 5. Set Alarm
 6. Open Camera
 
-![image](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/0d4484b3-e361-47fb-bc15-cba62a934f19)
+![p5_1 - Copy](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/4094e78f-57c3-4d0e-a9bf-7a5c53eb0eb7)
 
-![image](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/217161ab-3e6e-4dd5-8781-6bd6f802cfd0)
+![p5_2](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/636d9a40-5ff8-4e5d-b37e-55d52d78ec9b)
 
-![image](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/b38608e2-dfac-40d5-b660-020c92b910b1)
+![image](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/db92261f-049e-4506-9919-6e8419ce9d4a)
 
-![image](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/7200c3a5-4482-4b7b-b902-e27ac4fe0f2e)
+![p5_4](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/8ae6a066-3267-4b18-b2f0-b9dddaa611a0)
 
-![image](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/46e727f9-3d60-4b42-b67b-6d49378ea22b)
+![p5_5](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/87910923-1a5e-4295-8f4c-129195497a9d)
 
-![image](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/5ad3c969-d06e-4a41-90b4-017338cad5a1)
+![p5_6](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/84a1e481-0a97-42f9-86c8-fa5a9468c035)
 
-![image](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/a52c8fd6-0211-4eec-ab9f-509a11eb1766)
+![p5_7](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/af990ef8-bcf4-4406-90db-b2a288f2c063)
 
-![image](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/d5e7a738-e96f-4e0d-a913-7d8438953a3a)
+![p5_8](https://github.com/Diya-Chauhan/MAD_Practical-5_21012011011/assets/98373841/f38ed9e0-b3a0-49e6-93aa-aa7093eb68a6)
